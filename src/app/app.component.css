@@ -1,0 +1,21 @@
+img {
+  max-width: 1000px;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  min-height: 96vh;
+  flex: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: end;
+  height: 4vh;
+  font-size: 12px;
+}
