@@ -9,7 +9,7 @@ body {
 }
 
 .content {
-  min-height: 96vh;
+  min-height: 89vh;
   flex: 1;
 }
 
@@ -18,4 +18,14 @@ body {
   justify-content: end;
   height: 4vh;
   font-size: 12px;
+}
+
+mat-tab-group {
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  height: 7vh;
 }
