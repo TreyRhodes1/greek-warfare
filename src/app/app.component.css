@@ -3,19 +3,18 @@ img {
   width: 100%;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
-
 .content {
-  min-height: 89vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  min-height: 96vh;
   flex: 1;
 }
 
 .footer {
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   height: 4vh;
   font-size: 12px;
 }
@@ -24,8 +23,13 @@ mat-tab-group {
   justify-content: center;
   max-width: 1000px;
   margin: 0 auto;
+  min-height: 90vh;
 }
 
-header {
-  height: 7vh;
+.mat-tab-card {
+  min-height: 81vh;
+}
+
+.header {
+  height: 6vh;
 }
